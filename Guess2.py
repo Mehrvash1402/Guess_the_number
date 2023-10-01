@@ -6,7 +6,7 @@ def guessing_game():
     secret_number = random.randint(1, 20) #generates secret number
     num_guesses = 0 #counter variable for attempts
     remaining = 5 #counter variable for remaining attempts
-##Make while True loop
+
     while True:
         #user prompted to guess a number
         user_guess = int(input("Pick a whole number between 1 and 20. ")) 
